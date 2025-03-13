@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const connectDB = async () => {
   try {
     await mongoose.connect(
-      `mongodb+srv://name:${process.env.MONGO_PASSWORD}@cluster0.qeokcbu.mongodb.net/mainDB`,
+      `mongodb+srv://zubairyh60:VML1kLyKiJmW7ssX@cluster0.ifr8t.mongodb.net/`,
       {
         useNewUrlParser: true,
       }
